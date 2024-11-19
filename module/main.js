@@ -23,3 +23,26 @@ do something like this.
 */
 
 
+console.log(f.add(50,60))
+
+console.log(f.subtract(40,10))
+
+console.log(f.multiply(20,30))
+
+console.log(f.divide(280,2)) 
+
+let bananna = [10,20,40,60,30,20,25,78,99,35,88,100,120]
+console.log(f.sort(bananna))
+
+let minion = ["Vector","Agnes","Nefario","Margo","Edith","Stuart","Bob"]
+
+console.log(f.sortAlphabetically(minion))
+
+let gru = ["hattie","Dave","Tim","Phil","Jerry"]
+
+let Bob = ["haTTie","DAVe","TiM","PHIl","JERry"]
+console.log(f.sortByLength(gru))
+
+console.log(f.convertNamesToLengths(gru))
+
+console.log(f.toLowerCaseList(Bob))
